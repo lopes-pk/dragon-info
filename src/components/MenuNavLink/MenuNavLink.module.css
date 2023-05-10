@@ -1,0 +1,10 @@
+.link{
+  color: #e3ea1f;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.linkAtivado{
+text-decoration: underline;
+}

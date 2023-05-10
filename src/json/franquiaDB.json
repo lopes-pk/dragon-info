@@ -1,0 +1,32 @@
+[
+  {
+    "title":"Dragon Ball (1986 – 1989)",
+    "descricao":"Com um total de 153 episódios, Dragon Ball adaptou 194 capítulos do mangá e é considerado por muitos a melhor adaptação da série, tanto pela fidelidade da adaptação, quanto pela qualidade da animação.Nessa saga inicial acompanhamos um garotinho com cauda de macaco chamado Son Goku, que vive nas montanhas. Logo se encontra com uma garota chamada Bulma, que está atrás de objetos chamados Esferas do Dragão e assim, as duas crianças saem em uma perigosa aventura enfrentando poderosos inimigos para reunir as 7 Esferas do Dragão, as Dragon Balls.",
+    "img":"assets/images/DragonBall.webp"
+  },
+  {
+    "title":"Dragon Ball Z (1989 – 1996)",
+    "descricao":"A Toei Animation decidiu continuar com as adaptações devido ao grande sucesso, mas pediu para que Toriyama trocasse o título e assim foi feito. Dragon Ball Z se passa 5 anos depois dos acontecimentos da primeira saga e adapta 325 capítulos do mangá, tendo um total de 291 episódios.É em Dragon Ball Z que temos as principais e mais conhecidas sagas da franquia: Saga Sayajin, Saga Freeza, Saga dos Androids e Cell e a Saga Majin Boo.",
+    "img":"assets/images/DragonBallZ.webp"
+  },
+  {
+    "title":"Dragon Ball GT (1996 – 1997)",
+    "descricao":"Toriyama terminou Dragon Ball na Saga Boo, mas a Toei ainda queria fazer render mais em cima da franquia, então lançou Dragon Ball GT. Essa continuação não é canônica para a série principal, mas faz parte da continuidade do anime. Não adapta nenhum mangá, mas possui um total de 64 episódios.A história começa quando Pilaf encontra as Esferas do Dragão Negras no templo do Kami-Sama e acaba transformando Goku novamente em criança depois de desejar isso ao Shenlong Vermelho. As Esferas do Dragão se espalham por todo o universo e Pan, Trunks e Goku precisam reuní-las em um ano para que a Terra não exploda.",
+    "img":"assets/images/DragonBallGT.webp"
+  },
+  {
+    "title":"Dragon Ball Kai (2009 – 2011)",
+    "descricao":"Dragon Ball Kai é uma remasterização em HD de Dragon Ball Z que foi anunciada em 2009 pela Toei Animation para comemorar os 20 anos de DBZ. Conta com nova abertura e encerramento, além de re-dublagem com os atores originais. Conta com um total de 99 episódios.Temos novamente a adaptação das sagas Sayajin, Freeza, Androids e Cell e Majin Boo.",
+    "img":"assets/images/DragonBallKai.webp"
+  },
+  {
+    "title":"Dragon Ball Super (2015 – 2018)",
+    "descricao":"Dragon Ball Super foi anunciado pela Toei Animation em abril de 2015, sendo a primeira série de anime de Dragon Ball a ser lançada num período de tempo de 18 anos desde Dragon Ball GT. A história do anime se passa 4 anos após a derrota de Majin Boo, sendo uma continuação canônica para a história principal.Nessa adaptação temos as sagas Deus da Destruição, do Freeza Dourado, do Sexto Universo, Trunks do Futuro, Sobrevivência do universo, Broly e Patrulha Galáctica.",
+    "img":"assets/images/DragonBallSuper.webp"
+  },
+  {
+    "title":"Dragon Ball Heroes (2018 – …)",
+    "descricao":"Em maio de 2018 a Yonkou Productions anunciou o anime Super Dragon Ball Heroes, baseado no jogo que leva o mesmo nome produzido pela Bandai Namco.Não é uma continuação canônica, mas se torna “divertida” por nos permitir ver todos os personagens que já conhecemos em confrontos inesperados. Tivemos lutas entre Vegetto e o Super Saiyajin 4, Goku contra o próprio Goku e outras coisas que só veríamos em imaginação.",
+    "img":"assets/images/DragonBallHeroes.webp"
+  }
+]

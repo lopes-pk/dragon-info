@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
 
 
-.article {}
+.article {
+  background-color: #e3914aec;
+}
 
 .nameBox {
   width: 100%;
-  margin: 0;
+  padding: 1rem 0;
 }
 
 .name {
   font-size: 34px;
   text-transform: capitalize;
   text-align: center;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .charImgContainer {
@@ -26,7 +28,8 @@
   display: flex;
   justify-content: center;
   margin-top: 2rem;
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 1em 0;
   width: 600px;
   height: 500px;
 }
@@ -37,14 +40,8 @@
   height: 100%;
   flex-direction: column;
   justify-content: space-around;
-}
-
-.charAttributesLeft {
-  margin-right: 2rem;
-}
-
-.charAttributesRight {
-  margin-left: 2rem;
+  cursor: default;
+  margin: 0 2rem;
 }
 
 .charAttributes {
@@ -69,16 +66,17 @@
   width: auto;
   height: 100%;
 }
-
-.bioContainer {
-  margin: 6rem 6rem 0;
+.infoGerais{
+  padding: 2rem 6rem;
 }
-
+.bioContainer{
+  margin-top:4rem;
+}
 .tituloBioBox {
   width: 100%;
 }
 
-.tituloBio {
+.tituloBio,.skillTitle {
   width: auto;
   text-align: center;
   text-transform: uppercase;
@@ -89,4 +87,48 @@
 .textBio {
   font-size: 20px;
   line-height: 30px;
+  margin:0;
+  
 }
+
+.skillContainer{
+  width: 100%;
+  height: auto;
+  margin-top:4rem;
+}
+
+.skillBoxText{
+  padding: 0;
+  list-style: none;
+}
+
+.skill{
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 4rem;
+  cursor: default;
+}
+
+@media screen and (max-width:776px) {
+.charAttributes{
+  font-size: 24px;
+}
+.charImgBackground {
+ 
+  width: 400px;
+  
+}
+} 
+@media screen and (max-width:500px) {
+  .infoGerais{
+    padding: 0 1rem;
+  }
+.charImgBackground {
+
+  width: 360px;
+}
+.charAttributesLeft,
+.charAttributesRight {
+  margin: 0 1rem;
+}
+} 

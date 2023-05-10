@@ -1,0 +1,55 @@
+.franquiaMain{
+  padding: 2rem 6rem;
+  background-color: aliceblue;
+}
+.titleBox{
+  padding: 0 4rem;
+}
+.title1, .title2{
+  padding:0;
+  margin:0;
+}
+.title1{
+  font-size:38px ;
+}
+.title2{
+  font-size:22px ;
+}
+.secaoFranquiaContainer{
+  padding: 1rem 4rem;
+}
+.franquiaBox{
+  margin-top: 4.6rem;
+}
+
+.franquiaTitle{
+  font-size: 26px;
+}
+
+.imgCapa{
+  max-width:100%;
+  background-size: contain;
+}
+.descricaoBox{
+  padding: 0 .6rem;
+}
+.descricao{
+  font-size: 20px;
+}
+
+@media screen and (max-width: 766px) {
+  .franquiaMain{
+    padding: 2rem 2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .franquiaMain{
+    padding: 2rem 0rem;
+  }
+  .titleBox{
+    padding: 0 1rem;
+  }
+  .secaoFranquiaContainer{
+    padding: 1rem 1rem;
+  }
+}

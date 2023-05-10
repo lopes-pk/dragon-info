@@ -1,0 +1,10 @@
+.rodapeContainer{
+  background-color: #b75b0a;
+  padding: 1.4rem;
+}
+.rodapeText{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin:0;
+}
