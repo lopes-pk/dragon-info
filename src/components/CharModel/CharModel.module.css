@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+
+
+.article {}
+
+.nameBox {
+  width: 100%;
+  margin: 0;
+}
+
+.name {
+  font-size: 34px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.charImgContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.charImgBackground {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  border: 1px solid black;
+  width: 600px;
+  height: 500px;
+}
+
+.charAttributesLeft,
+.charAttributesRight {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.charAttributesLeft {
+  margin-right: 2rem;
+}
+
+.charAttributesRight {
+  margin-left: 2rem;
+}
+
+.charAttributes {
+  text-transform: uppercase;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 30px;
+  margin: 0;
+  text-align: center;
+  text-shadow: 0px 0px 3px rgb(250, 233, 0);
+}
+
+.charImgBox {
+  display: flex;
+  justify-content: center;
+  width: 240px;
+  height: 500px;
+
+}
+
+.charImg {
+  background-size: contain;
+  width: auto;
+  height: 100%;
+}
+
+.bioContainer {
+  margin: 6rem 6rem 0;
+}
+
+.tituloBioBox {
+  width: 100%;
+}
+
+.tituloBio {
+  width: auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 42px;
+  letter-spacing: 2px;
+}
+
+.textBio {
+  font-size: 20px;
+  line-height: 30px;
+}

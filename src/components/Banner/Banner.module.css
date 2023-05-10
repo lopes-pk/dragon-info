@@ -1,0 +1,12 @@
+.bannerContainer{
+  width: 100%;
+  height: 80vh;
+  background-color: #72afab;
+}
+.banner{
+  background-image: url('../../../public/assets/images/banner.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
