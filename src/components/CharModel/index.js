@@ -38,13 +38,12 @@ export default function CharModel({ image, power, defense, health, kiRestore, bi
             <h2 className={styles.skillTitle}>skills</h2>
           </div>
           <ul className={styles.skillBoxText}>
-            <li className={styles.skill}>> {skills[0]}</li>
-            <li className={styles.skill}>> {skills[1]}</li>
-            <li className={styles.skill}>> {skills[2]}</li>
+            <li className={styles.skill}>{`> ${skills[0]}`}</li>
+            <li className={styles.skill}>{`> ${skills[1]}`}</li>
+            <li className={styles.skill}>{`> ${skills[2]}`}</li>
           </ul>
         </div>
       </div>
-
     </article>
   )
 }

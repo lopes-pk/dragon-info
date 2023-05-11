@@ -1,0 +1,74 @@
+.mainNotFound{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #e1893dec;
+}
+
+.caixaConteudo{
+  display: flex;
+  background-color: #e2710eec;
+  width: 100%;
+  height:80% ;
+}
+
+.tituloEFrase{
+  margin:8rem 0 0 6rem;
+}
+
+.titulo{
+  text-transform: uppercase;
+  font-size: 38px;
+  margin:0;
+  padding: 0;
+}
+
+.erro404{
+  text-transform: uppercase;
+  font-size: 80px;
+  margin:-26px 0 0 -4px;;
+}
+
+.frase{
+  margin:0;
+  font-size: 20px;
+}
+
+.circulo{
+  position: relative;
+  background-color: #fff931;
+  border-radius: 100%;
+  width: 340px;
+  height: 340px;
+  margin: 5rem auto;
+}
+
+.imagemGoku{
+  background: url(../../../public/assets/images/GokuNuvem.png);
+  background-size: contain;
+  background-position-x:20px ;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  right:-40px;
+  bottom: -40px;
+}
+
+.button{
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #fff931;
+  border:none;
+  border-radius: 20px;
+  margin-top: 1.3rem;
+  padding: 1rem 2rem;
+  transition: 100ms;
+}
+
+.button:hover{
+  cursor: pointer;
+  background-color: #fff831ac;
+}

@@ -4,6 +4,7 @@ import json from '../../json/characters.json'
 import { Route, Routes, useParams } from 'react-router-dom'
 import PaginaPrincipal from '../../components/PaginaPadrao'
 import ScrollToTop from '../../components/ScrollToTop'
+import NotFound from '../NotFound'
 
 export default function CharInfo() {
   const parametro = useParams()
@@ -14,7 +15,7 @@ export default function CharInfo() {
   })
 
   if (!char) {
-    return <div>a</div>
+    return <NotFound />
   }
   return (
     <>
