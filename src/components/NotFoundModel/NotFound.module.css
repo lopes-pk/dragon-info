@@ -72,3 +72,34 @@
   cursor: pointer;
   background-color: #fff831ac;
 }
+
+
+@media screen and (max-width:1024px){
+  .circulo{
+    display: none;
+  }
+  .caixaConteudo{
+    justify-content: center;
+    align-items: center;
+  }
+  .tituloEFrase{
+    margin: 0;
+  }
+}
+
+@media screen and (max-width:510px){
+  .tituloEFrase{
+    margin: 0 .4em;
+  }
+  .titulo{
+    font-size: 32px;
+  }
+  
+  .erro404{
+    font-size: 74px;
+  }
+  
+  .frase{
+    font-size: 14px;
+  }
+}
