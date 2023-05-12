@@ -32,18 +32,26 @@
   padding: 1em 0;
   width: 600px;
   height: 500px;
+  position: relative;
 }
 
 .charAttributesLeft,
 .charAttributesRight {
   display: flex;
-  height: 100%;
+  height: 500px;
   flex-direction: column;
   justify-content: space-around;
   cursor: default;
   margin: 0 2rem;
 }
-
+.charAttributesLeft{
+  position: absolute;
+  left:0;
+}
+.charAttributesRight{
+  position: absolute;
+  right:0;
+}
 .charAttributes {
   text-transform: uppercase;
   font-family: 'Rajdhani', sans-serif;
@@ -62,21 +70,27 @@
 }
 
 .charImg {
+  z-index: 10;
   background-size: contain;
   width: auto;
   height: 100%;
 }
-.infoGerais{
+
+.infoGerais {
+
   padding: 2rem 6rem;
 }
-.bioContainer{
-  margin-top:4rem;
+
+.bioContainer {
+  margin-top: 4rem;
 }
+
 .tituloBioBox {
   width: 100%;
 }
 
-.tituloBio,.skillTitle {
+.tituloBio,
+.skillTitle {
   width: auto;
   text-align: center;
   text-transform: uppercase;
@@ -87,22 +101,22 @@
 .textBio {
   font-size: 20px;
   line-height: 30px;
-  margin:0;
-  
+  margin: 0;
+
 }
 
-.skillContainer{
+.skillContainer {
   width: 100%;
   height: auto;
-  margin-top:4rem;
+  margin-top: 4rem;
 }
 
-.skillBoxText{
+.skillBoxText {
   padding: 0;
   list-style: none;
 }
 
-.skill{
+.skill {
   font-size: 28px;
   font-weight: 600;
   line-height: 4rem;
@@ -110,25 +124,38 @@
 }
 
 @media screen and (max-width:776px) {
-.charAttributes{
-  font-size: 24px;
-}
-.charImgBackground {
- 
-  width: 400px;
-  
-}
-} 
-@media screen and (max-width:500px) {
-  .infoGerais{
-    padding: 0 1rem;
+  .charAttributes {
+    font-size: 24px;
   }
-.charImgBackground {
 
-  width: 360px;
 }
-.charAttributesLeft,
-.charAttributesRight {
-  margin: 0 1rem;
+
+@media screen and (max-width:500px) {
+  .infoGerais {
+    padding: 0 1rem 1rem;
+  }
+
+  .charImgBackground {
+    width: 360px;
+  }
+  .charImgBox {
+    display: flex;
+    justify-content: center;
+    width: 240px;
+    height: 500px;
+  
+  }
+  
+  .charImg {
+    z-index: 10;
+    background-size: contain;
+    width: auto;
+  }
+
+  .charAttributesLeft,
+  .charAttributesRight {
+    margin: 0rem;
+    z-index: 1;
+  }
+
 }
-} 

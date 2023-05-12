@@ -1,7 +1,8 @@
 .bannerContainer{
   width: 100%;
-  height: 80vh;
+  height:80vh;
   background-color: #72afab;
+  
 }
 .banner{
   background-image: url('../../../public/assets/images/banner.png');
@@ -9,4 +10,32 @@
   background-size: contain;
   width: 100%;
   height: 100%;
+  
+}
+
+@media screen and (max-width:1024px) {
+  .bannerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner{
+    width: 800px;
+    height: 340px;
+  }
+}
+@media screen and (max-width:800px) {
+  .banner{
+    width: 600px;
+    height: 220px;
+  }
+}
+@media screen and (max-width:500px) {
+  .bannerContainer{
+    height: 54vh;
+  }
+  .banner{
+    width: 100%;
+    height: 180px;
+  }
 }
