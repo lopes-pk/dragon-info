@@ -4,7 +4,7 @@ export default function Rodape() {
   return (
     <footer className={styles.rodapeContainer}>
       <h3 className={styles.rodapeText}>
-        © Devloped by lopes-pk</h3>
+        © Developed by lopes-pk</h3>
     </footer>
   )
 }
